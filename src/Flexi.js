@@ -5,14 +5,20 @@ class Flexi extends React.Component {
     super(props);
   }
 
-  onSubmit() {
-    // Replace data with the form data
+  onSubmit = () => {
+    // Replace data with composing your form data
     const data = {};
     this.props.onSubmit(data); // dont edit this line
+  };
+
+  render() {
+    return (
+      <form>
+        {/* Do your stuff here */}
+        <button onClick={this.onSubmit} />
+      </form>
+    );
   }
-
-  // Do your stuff here!
-
 }
 
 export default Flexi;
