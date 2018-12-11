@@ -1,3 +1,6 @@
+/**
+ * This file contain tests for the flexi component
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -79,3 +82,8 @@ it('Test recursive config', () => {
     }),
   );
 });
+
+/**
+ * Well, if you are here you value tests as we do
+ * Try to write more tests as an added value
+ */
